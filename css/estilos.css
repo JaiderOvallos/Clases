@@ -14,6 +14,8 @@
     --main_text-primary:#155404;
     --main_text-secundary:#8ADA74;
     --background-color: #FAFBFE;
+    --background-color-pie:rgb(52, 141, 163);
+    --background-color-proye:rgb(110, 217, 231);
     --lowText_font_size: 16px;
     --text_size_title: 40px;
     --text_title_card: 24px;
@@ -236,3 +238,138 @@ header{
 .box__card-primary img{
     width: 100%;
 }
+
+/* end pie */
+
+.container_pie{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--background-color-pie);
+}
+
+.cover_pie{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.text_cover_pie{
+    width: 100%;
+    padding-right: 150px;
+}
+
+.text_cover_pie h1{
+    font-size: 50px;
+    color: var(--color_text-secundary);
+}
+
+.text_cover_pie p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-secundary);
+}
+
+.btn_text_pie{
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: var(--color_text-secundary);
+    color: #FAFBFE;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn_text_pie:hover{
+    background: transparent;
+    border: 2px solid var(--color_text-secundary);
+    color: var(--color_text-secundary)
+
+}
+
+.image_cover_pie{
+    width: 100%;
+}
+
+.image_cover_pie img{
+    width: 550px;
+}
+
+/* pie */
+
+/* servicios */
+
+
+.container__card-second{
+    padding-top: 100px;
+}
+
+.card__second{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-second{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-second p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-second h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardPrimary_second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box__card-second{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box__card-second:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-second h2{
+    font-size: var(--text_title_card);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.box__card-second p{
+    margin-top: 15px;
+}
+
+.box__card-second img{
+    width: 100px;
+}
+
+/* proyecto */
+
