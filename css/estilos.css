@@ -393,7 +393,7 @@ header{
 }
 
 .text_card-image p{
-    color: var(--color_text-primary);
+    color: var(--background-color);
     letter-spacing: 4px;
     font-size: var(--text_paragraph);
     font-weight: 500;
