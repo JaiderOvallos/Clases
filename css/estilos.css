@@ -294,12 +294,18 @@ header{
 
 }
 
+.image_cover_pie div{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
 .image_cover_pie{
     width: 100%;
 }
 
 .image_cover_pie img{
-    width: 550px;
+    width: 100%;
 }
 
 /* pie */
@@ -373,3 +379,206 @@ header{
 
 /* proyecto */
 
+/* nuevo */
+.container_card-image {
+    padding-top: 100px;
+    background-color: var(--color_text-primary);
+}
+
+.card_image {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text_card-image p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text_card-image h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container_box-cardImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: 100%;
+    transition: height 1s ease 0s;
+}
+
+.box_card-image1{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    background-image: url(https://contents.mediadecathlon.com/p2154216/k$b57b5a81814e4638a74e2fb224f1ade2/tenis-de-baloncesto-tarmak-fast-500-adulto-negro.jpg?format=auto&quality=40&f=452x452) ;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.box_card-image1:hover{
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-image2{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    background-image: url(https://losvictorinos.co/cdn/shop/products/BASQUET_4.jpg?v=1682351988) ;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.box_card-image2:hover{
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-image3{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_975302-MPE49741700923_042022-O.webp) ;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.box_card-image3:hover{
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+/* end nuevo */
+
+/* tarjetas trabajadores */
+.container_card-worker {
+    padding-top: 100px;
+    background-color: var(--background-color);
+}
+
+.card_worker {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text_card-worker p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text_card-worker h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container_box-cardWorker{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: 100%;
+    transition: height 1s ease 0s;
+}
+
+.box_card-worker1 img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+.box_card-worker1{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    transition: transform 0.5s ease;
+}
+
+.box_card-worker1:hover{
+    background-image: none;
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-worker2{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    transition: transform 0.5s ease;
+}
+
+.box_card-worker2 img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+.box_card-worker2:hover{
+    background-image: none;
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-worker3 img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+
+.box_card-worker3{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    transition: transform 0.5s ease;
+}
+
+.box_card-worker3:hover{
+    background-image: none;
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-worker4 img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+
+.box_card-worker4{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    transition: transform 0.5s ease;
+}
+
+.box_card-worker4:hover{
+    background-image: none;
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
